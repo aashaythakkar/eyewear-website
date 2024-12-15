@@ -1,0 +1,11 @@
+/* src/components/Products.css */
+.product-card {
+    transition: transform 0.2s ease-in-out;
+  }
+  .product-card:hover {
+    transform: translateY(-10px);
+  }
+  .product-card .btn-outline-primary {
+    border-radius: 20px;
+  }
+  

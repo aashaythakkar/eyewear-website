@@ -1,0 +1,9 @@
+/* src/components/Cart.css */
+.cart-table th, .cart-table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .cart-table .btn-outline-danger {
+    border-radius: 20px;
+  }
+  

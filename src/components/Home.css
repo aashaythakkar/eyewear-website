@@ -1,0 +1,63 @@
+/* src/components/Home.css */
+
+/* General Styles */
+.home-container {
+  background-color: #d8a83e; /* Ochre Yellow Background */
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #e0e0e0; /* Light Gray */
+  color: #333;
+  padding: 80px 0;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section .btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 25px;
+}
+
+.hero-section .btn:hover {
+  background-color: #555;
+}
+
+/* Highlights Section */
+.highlights-section {
+  background-color: #e0e0e0;
+  padding: 60px 0;
+}
+
+.highlights-section h2 {
+  color: #444;
+}
+
+.card {
+  border: 10px||10px||10px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #333;
+  text-color: #fff
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #fff;
+    font-weight: bold;
+  }
