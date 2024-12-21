@@ -11,7 +11,7 @@ function Home() {
         <div className="container text-center py-5">
           <h1 className="display-4 fw-bold">Discover Your Perfect Eyewear</h1>
           <p className="lead mt-3">
-            Browse through our wide range of stylish, modern, and comfortable eyewear.
+            Browse through our wide range of stylish, modern, and comfortable eyewear
           </p>
           <Link to="/products" className="btn btn-dark btn-lg mt-4">
             Shop Now
